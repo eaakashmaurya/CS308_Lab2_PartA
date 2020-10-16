@@ -19,24 +19,26 @@ int main(int argc, char* argv[]) {
 		if(input < 0){
 			double complex num = input + 0.0;
 			double complex s = csqrt(num);
-
-//<<<<<<< HEAD
+/*
+<<<<<<< HEAD
 			printf("DEBUG: Sqrt of %d is %f\n",input,sqrt(input));
 			
 			// added exit message.
 			printf("DEBUG: End of program. Exiting.");
 			
 //=======
-			printf("DEBUG: %.2f + %.2fi\n", creal(s), cimag(s));
+*/
+			printf("NEGSUPPORT: %.2f + %.2fi\n", creal(s), cimag(s));
 		}
 		else {
 			
-			printf("DEBUG: Sqrt of %d is %f\n",input,sqrt(input));
+			printf("Sqrt of %d is %f\n",input,sqrt(input));
 			
-			// Exit Message Added
-			printf("DEBUG: End of program. Exiting.");
-
 		}
+		
+		// Exit Message Added
+		printf("DEBUG: End of program. Exiting.");
+	
 	}
 	else { printf("Input check failed: not a non-zero integer");}
 	
