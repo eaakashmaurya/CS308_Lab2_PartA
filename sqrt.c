@@ -30,7 +30,9 @@ int main(int argc, char* argv[]) {
 	else {
 		
 		printf(" Sqrt of %d is %f\n",input,sqrt(input));
-		printf("DEBUG: End of program. Exiting.");
+		
+		// Exit Message Added
+		printf("End of program. Exiting.");
 
 	}
 >>>>>>> e40a43f4f1ba7bdd7816d714383fb390050d19b6
