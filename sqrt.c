@@ -14,12 +14,26 @@ int main(int argc, char* argv[]) {
 	}
 
 	int input = atoi(argv[1]);
+	if(input < 0){
+		double complex num = input + 0.0;
+		double complex s = csqrt(num);
 
+<<<<<<< HEAD
 	printf(" Sqrt of %d is %f\n",input,sqrt(input));
 	
 	// added exit message.
 	printf("End of program. Exiting.");
 	
+=======
+		printf("NEGSUPPORT: %.2f + %.2fi\n", creal(s), cimag(s));
+	}
+	else {
+		
+		printf(" Sqrt of %d is %f\n",input,sqrt(input));
+		printf("DEBUG: End of program. Exiting.");
+
+	}
+>>>>>>> e40a43f4f1ba7bdd7816d714383fb390050d19b6
 	return(0);
 
 } // end main
