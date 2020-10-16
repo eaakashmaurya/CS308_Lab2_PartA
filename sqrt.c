@@ -20,21 +20,21 @@ int main(int argc, char* argv[]) {
 			double complex num = input + 0.0;
 			double complex s = csqrt(num);
 
-	//<<<<<<< HEAD
-		printf(" Sqrt of %d is %f\n",input,sqrt(input));
-		
-		// added exit message.
-		printf("End of program. Exiting.");
-		
-	//=======
+//<<<<<<< HEAD
+			printf("NEGSUPPORT: Sqrt of %d is %f\n",input,sqrt(input));
+			
+			// added exit message.
+			printf("NEGSUPPORT: End of program. Exiting.");
+			
+//=======
 			printf("NEGSUPPORT: %.2f + %.2fi\n", creal(s), cimag(s));
 		}
 		else {
 			
-			printf(" Sqrt of %d is %f\n",input,sqrt(input));
+			printf("NEGSUPPORT: Sqrt of %d is %f\n",input,sqrt(input));
 			
 			// Exit Message Added
-			printf("End of program. Exiting.");
+			printf("NEGSUPPORT: End of program. Exiting.");
 
 		}
 	}
