@@ -1,1 +1,1 @@
-# CS308_Lab2_PartA
+CS308 Fall 2020
