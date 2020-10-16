@@ -15,7 +15,7 @@ int main(int argc, char* argv[]) {
 	
 	int input = atoi(argv[1]); // is 0 for non integer value & integer 0
 	if(input != 0){
-		
+		// already had negative support, adidng just this comment to the commit
 		if(input < 0){
 			double complex num = input + 0.0;
 			double complex s = csqrt(num);
